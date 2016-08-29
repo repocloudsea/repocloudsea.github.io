@@ -189,8 +189,9 @@ img{
 .header-inner>img{
 	width: 100%;
 }
+
 .header-overlay{
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(51,51,51, 0.6);
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -208,9 +209,37 @@ img{
 .header-content h2 {
 	font-size: 80px;
 	font-weight: bold;
-/*	text-transform: uppercase;*/
 	line-height: 80px;
 }
+
+
+.cloud-header{
+	font-size: 150px;
+	font-weight: bold;
+	font-family: 'Alfa Slab One', cursive;
+	color: #fff;
+}
+
+.sea-header{
+color: #00D999;	
+}
+
+.slide-header{
+	font-size: 150px;
+	font-weight: bold;
+	font-family: 'Alfa Slab One', cursive;
+	color: #fff;
+}
+
+.smaller-header{
+	margin: 0;
+	padding: 0;
+	font-size:30px;
+	font-family: 'Economica', sans-serif;
+	font-weight: lighter;
+	color: #fff;
+}
+
 .header-content h2 span {
 	font-weight: normal;
 	line-height: 93px;
